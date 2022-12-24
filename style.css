@@ -1,0 +1,141 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+.unit {
+    width: 24.6vw;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.son {
+    width: auto;
+    height: 250px;
+    display: block;
+}
+.photo {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.recipe {
+    background-color: rgb(206, 243, 255);
+    width: auto;
+    height: auto;
+    display: none;
+    padding: 7px;
+}
+.son:hover ~ .recipe {
+    display: block;
+}
+.unit:hover {
+    position:relative;
+    border: 5px solid black;
+    width: 30vw;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 102);
+    text-decoration: underline;
+    font-weight: 700px;
+}
+h2 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: orange;
+  }
+  h3 {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.signup {
+    color: blue;
+}
+.mod {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.mod-son {
+    position: fixed;
+    height: 60%;
+    width: 50%;
+    top: 20%;
+    left: 23%;
+}
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
